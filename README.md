@@ -2,7 +2,7 @@
 
 Step 1. Clone repository
 ```
-git clone https://github.com/tornadocash/nova-ui-minified.git
+git clone https://github.com/tornadocashdev/nova-ui-minified.git
 cd nova-ui-minified
 ```
 Step 2. Serve the folder with your favorite http server
@@ -22,7 +22,7 @@ version: '2'
 
 services:
   tornado_nova-ui:
-    image: tornadocash/nova-ui
+    image: tornadocashdev/nova-ui
     restart: always
     container_name: tornado_nova-ui
   watchtower:
